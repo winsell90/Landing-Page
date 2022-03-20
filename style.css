@@ -4,10 +4,27 @@
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr; 
   gap: 0px 0px; 
   grid-template-areas: 
-    "logo links"
-    "header pic"
-    "info info"
-    "quote quote"
-    "signup signup"
-    "footer footer"; 
+    "a a"
+    "b b"
+    "c c"
+    "d d"
+    "e e"
+    "f f"; 
 }
+
+.header {
+  color: #E5E7EB;
+  font-size: 18px;
+  grid-area: a;
+  background-color: #1F2937;
+  display: flex;
+  justify-content: space-between;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+
+}
+.link {
+margin: 15px;
+} 
