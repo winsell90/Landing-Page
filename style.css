@@ -25,19 +25,22 @@ body {
   align-items: center;
   padding: 5px 150px 0px 150px;
 }
+
 .links {
   display: flex;
   justify-content: space-between;
-
 }
+
 .link {
 margin-left: 7em;
 } 
+
 .linker, .linker:visited {
   color: #E5E7EB;
   font-size: 1vw;
   text-decoration: none;
 }
+
 .introphoto {
   grid-area: b;
   background-color: #1F2937;
@@ -48,24 +51,32 @@ margin-left: 7em;
   align-items: center;
   padding-left: 150px;
   padding-right: 150px;
-  
 }
+
 .logo {
   font-size: 2vw;
   color: #F9FAF8;
 }
+
 .header1 {
   font-size: 3vw;
-  font-weight: 900;
+  font-weight: 800;
   color: #F9FAF8;
 }
+
 .header2 {
   font-size: 1vw;
   color: #F9FAF8;
 }
+
 .intro {
  width: 50%;
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ justify-content: center;
 }
+
 .photo {
  display: flex;
  width: 50%;
@@ -77,6 +88,7 @@ margin-left: 7em;
   width: 75%;
   border-radius: 15%;
 }
+
 .buynow {
   background-color: #3882f6;
   color: #F9FAF8;
